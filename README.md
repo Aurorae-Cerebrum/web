@@ -10,7 +10,6 @@
 - `cd web`
 3. Tailwind
 - `npm install -D tailwindcss postcss autoprefixer`
-- `npx tailwindcss init`
 
 ## Run App:
 - `cd web`
