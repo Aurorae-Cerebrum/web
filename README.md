@@ -12,3 +12,6 @@
 - `npm install -D tailwindcss postcss autoprefixer`
 - `npx tailwindcss init`
 
+## Run App:
+- `cd web`
+- `npm run start`
