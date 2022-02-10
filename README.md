@@ -4,8 +4,9 @@
 
 1. Tailwind
 
-run
+- run
 
-`npm install -D tailwindcss postcss autoprefixer`
-`npx tailwindcss init`
+- `npm install -D tailwindcss postcss autoprefixer`
+
+- `npx tailwindcss init`
 
