@@ -15,3 +15,4 @@
 ## Run App:
 - `cd web`
 - `npm run start`
+- [view in browser](http://localhost:3000/)
