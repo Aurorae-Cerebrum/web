@@ -1,17 +1,17 @@
 # Onboarding
 
 ## Todo:
-1. React
+1. Install React
 - install [nodejs](https://nodejs.org/en/)
 - `node -v`
 - `npm -v`
 2. Clone project
 - `git clone https://github.com/Aurorae-Cerebrum/web.git`
 - `cd web`
-3. Tailwind
+3. Setup Tailwind
 - `npm install -D tailwindcss postcss autoprefixer`
-- `npx tailwindcss init`
-
+4. Install animated cursor
+- `npm i react-animated-cursor`
 ## Run App:
 - `cd web`
 - `npm run start`
