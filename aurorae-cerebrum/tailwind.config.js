@@ -7,6 +7,12 @@ module.exports = {
       fontFamily: {
         'anaheim': ['Anaheim']
       }
+      
+    },
+    colors: {
+      current: 'currentColor',
+      'white': '#ffffff',
+      'dark': '#091747'
     },
   },
   plugins: [],

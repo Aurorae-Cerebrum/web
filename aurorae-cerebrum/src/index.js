@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import AnimatedCursor from "react-animated-cursor"
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -14,7 +15,9 @@ ReactDOM.render(
         outerAlpha={0.1}
         innerScale={0.7}
         outerScale={5}
-    />
+      />
+  
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
