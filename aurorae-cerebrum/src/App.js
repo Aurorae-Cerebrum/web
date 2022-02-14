@@ -8,7 +8,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div className='flex flex-col h-screen justify-between'>
-      <Navbar></Navbar>
+      <Navbar className=""></Navbar>
       <main className="mb-auto"></main>
       <Footer></Footer>
     </div>     
