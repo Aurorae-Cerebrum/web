@@ -7,7 +7,7 @@ function Navbar(props) {
             <ul className="pl-8 pr-8 p-4 flex justify-between font-anaheim items-center text-dark">
                 <li><p className="text-2xl">aurorae cerebrum</p></li>
                 <li>
-                    <ul className="flex space-x-8 text-base sm:text-xl">
+                    <ul className="flex space-x-8 text-lg sm:text-xl">
                         <li><a href=''>contactez-nous</a></li>
                         <li><a href=''>
                             <ul className="flex space-x-2 items-center">
@@ -22,19 +22,5 @@ function Navbar(props) {
         </nav>
     );
 }
-/*
-function Navitem(props) {
-  return (
-    
-  );
- 
 
-}
-<ul className="max-w-full h-full flex justify-end">{props.children}</ul>
-*/
 export default Navbar;
-
-/*
-
-
-*/

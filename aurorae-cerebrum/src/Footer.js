@@ -10,25 +10,25 @@ function Footer(props) {
             <p className="justify-self-start p-4 pl-8 text-2xl">aurorae cerebrum</p>
             <div className="pl-8 pr-8 p-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-8">
                 <div>
-                    <p className="text-xl pb-2">à propos</p>
+                    <p className="text-lg sm:text-xl pb-2">à propos</p>
                     <div className="border-t border-dark border-opacity-10">
-                        <p className="text-base sm:text-xl text-opacity-50 text-dark pt-2"><a href=''>équipe</a></p>
-                        <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>infolettre</a></p>
-                        <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>carrière</a></p>
+                        <p className="text-base sm:text-lg text-opacity-50 text-dark pt-2"><a href=''>équipe</a></p>
+                        <p className="text-base sm:text-lg text-opacity-50 text-dark"><a href=''>infolettre</a></p>
+                        <p className="text-base sm:text-lg text-opacity-50 text-dark"><a href=''>carrière</a></p>
                     </div>
                 </div>
                 <div>
-                    <p className="text-xl pb-2">produit</p>
+                    <p className="text-lg sm:text-xl pb-2">produit</p>
                     <div className="border-t border-dark border-opacity-10">
-                        <p className="text-base sm:text-xl text-opacity-50 text-dark pt-2"><a href=''>services</a></p>
+                        <p className="text-base sm:text-lg text-opacity-50 text-dark pt-2"><a href=''>services</a></p>
                         <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>plateforme</a></p>
                     </div>
                 </div>
                 <div>
-                    <p className="text-xl pb-2">solutions</p>
-                    <div className="text-base sm:text-xl border-t border-dark border-opacity-10">
-                        <p className="text-base sm:text-xl text-opacity-50 text-dark pt-2"><a href=''>prix</a></p>
-                        <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>partenaires</a></p>
+                    <p className="text-lg sm:text-xl pb-2">solutions</p>
+                    <div className="text-base sm:text-lg border-t border-dark border-opacity-10">
+                        <p className="text-base sm:text-lg text-opacity-50 text-dark pt-2"><a href=''>prix</a></p>
+                        <p className="text-base sm:text-lg text-opacity-50 text-dark"><a href=''>partenaires</a></p>
                     </div>
                 </div>    
             </div>
