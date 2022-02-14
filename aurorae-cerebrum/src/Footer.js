@@ -53,5 +53,4 @@ function Footer(props) {
 export default Footer;
 
 
-
-//lg:grid-cols-4
+//hello
