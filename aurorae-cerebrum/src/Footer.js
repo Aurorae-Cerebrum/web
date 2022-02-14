@@ -6,10 +6,36 @@ import { ReactComponent as Linkedin } from './assets/linkedin-logo.svg';
 
 function Footer(props) {
     return (
-        <nav className="static bottom-0 h-16  bg-white pb-4 border-t border-dark border-opacity-10">  
-            <p className="font-anaheim justify-self-start p-4 pl-8 text-xl sm:text-2xl text-dark">aurorae cerebrum</p>
+        <nav className="text-dark font-anaheim static bottom-0 h-16  bg-white pb-4">  
+            <p className="justify-self-start p-4 pl-8 text-2xl">aurorae cerebrum</p>
             
-            
+
+
+
+            <div className="pl-8 pr-8 p-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div>
+                    <p className="text-xl pb-2">à propos</p>
+                    <div className="border-t border-dark border-opacity-10">
+                        <p className="text-base sm:text-xl text-opacity-50 text-dark pt-2"><a href=''>équipe</a></p>
+                        <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>infolettre</a></p>
+                        <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>carrière</a></p>
+                    </div>
+                </div>
+                <div>
+                    <p className="text-xl pb-2">produit</p>
+                    <div className="border-t border-dark border-opacity-10">
+                        <p className="text-base sm:text-xl text-opacity-50 text-dark pt-2"><a href=''>services</a></p>
+                        <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>plateforme</a></p>
+                    </div>
+                </div>
+                <div>
+                    <p className="text-xl pb-2">solutions</p>
+                    <div className="text-base sm:text-xl border-t border-dark border-opacity-10">
+                        <p className="text-base sm:text-xl text-opacity-50 text-dark pt-2"><a href=''>prix</a></p>
+                        <p className="text-base sm:text-xl text-opacity-50 text-dark"><a href=''>partenaires</a></p>
+                    </div>
+                </div>    
+            </div>
             
             
             
@@ -18,7 +44,7 @@ function Footer(props) {
             
             
             <ul className="pl-8 pr-8 p-4 flex flex-col-reverse sm:flex-row items-left sm:items-center justify-between">
-                <li><p className="font-anaheim text-xs sm:text-base text-opacity-50 text-dark">©2022 aurorae cerebrum. all rights reserved</p></li>
+                <li><p className="text-xs sm:text-base text-opacity-50 text-dark">©2022 aurorae cerebrum. all rights reserved</p></li>
                 <li className="pb-4 sm:pb-1">
                     <ul className="flex flex space-x-4">
                         <li><a href=''><Twitter/></a></li>

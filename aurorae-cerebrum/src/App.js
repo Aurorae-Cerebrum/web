@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='flex flex-col h-screen justify-between'>
       <Navbar></Navbar>
-      <main className="mb-auto">Content</main>
+      <main className="mb-auto"></main>
       <Footer></Footer>
     </div>     
   );
@@ -17,12 +17,3 @@ function App() {
   
 
 export default App;
-
-/*
-<h1 className="text-3xl font-anaheim underline text-dark">
-      Hello world!
-      </h1>
-      <h2 className='font-anaheim text-dark'>
-        Aurorae Cerebrum
-      </h2>
-*/
