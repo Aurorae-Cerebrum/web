@@ -53,4 +53,9 @@ function Footer(props) {
 export default Footer;
 
 
+<<<<<<< HEAD
 //hello
+=======
+
+//lg:grid-cols-4
+>>>>>>> 38f6160a983ef7103459279f6512a3dac0113cd5
