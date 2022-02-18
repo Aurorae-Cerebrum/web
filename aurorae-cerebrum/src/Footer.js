@@ -3,11 +3,15 @@ import { ReactComponent as Discord } from './assets/discord-logo.svg';
 import { ReactComponent as Github } from './assets/github-logo.svg';
 import { ReactComponent as Medium } from './assets/medium-logo.svg';
 import { ReactComponent as Linkedin } from './assets/linkedin-logo.svg';
+import { ReactComponent as Logo } from './logo.svg';
 
 function Footer(props) {
     return (
         <nav className="text-dark font-anaheim static bottom-0 h-16  bg-white pb-4">  
-            <p className="justify-self-start p-4 pl-8 text-2xl">aurorae cerebrum</p>
+            <ul className="flex space-x-2 justify-self-start p-4 pl-8 items-center">
+                <li><Logo></Logo></li>
+                <li><p className=" text-2xl">AuroraeCerebrum</p></li>
+            </ul>
             <div className="pl-8 pr-8 p-4 flex grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 
                 <div>
