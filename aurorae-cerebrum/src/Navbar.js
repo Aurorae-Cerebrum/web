@@ -9,7 +9,7 @@ function Navbar(props) {
             <ul className="pl-8 pr-8 p-3 flex justify-between font-anaheim items-center text-dark">
                 <li><ul className="flex space-x-2 justify-self-start items-center">
                         <li><Logo></Logo></li>
-                        <li><p className=" text-2xl">AuroraeCerebrum</p></li>
+                        <li><p className="text-2xl invisible sm:visible">AuroraeCerebrum</p></li>
                     </ul>
                 </li>
                 <li>
