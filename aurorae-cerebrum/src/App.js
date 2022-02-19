@@ -7,11 +7,13 @@ import Intro from './Intro';
 
 function App() {
   return (
-    <div className='flex flex-col h-screen justify-between'>
-      <Navbar></Navbar>
-      <Intro></Intro>
-      
-      <Footer></Footer>
+    <div className="flex flex-col h-screen justify-between">
+      <Navbar></Navbar>      
+      <div className="mb-auto">
+        <Intro></Intro>
+        <p>next</p>
+      </div>
+      <Footer className=""></Footer>
     </div>     
   );
 }
