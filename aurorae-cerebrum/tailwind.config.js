@@ -5,7 +5,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'anaheim': ['Anaheim']
+        'anaheim': ['Anaheim'],
+        'alliance': ['alliance-no1'],
+        
+        'small' : ['Anaheim', '#627597']
       }
       
     },
@@ -13,7 +16,12 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'dark': '#091747',
-      'black': '#040D21'
+      'black': '#000000',
+      'grey': '#627597',
+      'yellow': '#FFD33D',
+      'red': '#F44653',
+      'green': '#58BC34',
+      'blue': '#1035BB'
     },
   },
   plugins: [],

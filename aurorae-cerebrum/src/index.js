@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import AnimatedCursor from "react-animated-cursor"
+import AnimatedCursor from "react-animated-cursor";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
     <AnimatedCursor
         innerSize={10}
         outerSize={40}
-        color='9, 23, 71'
-        outerAlpha={0.1}
+        color='255, 255, 255'
+        outerAlpha={0.50}
         innerScale={0.7}
         outerScale={5}
       />
@@ -25,3 +25,6 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+
+//color='9, 23, 71'

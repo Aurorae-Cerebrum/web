@@ -11,7 +11,7 @@ function App() {
       <Navbar></Navbar>      
       <div className="mb-auto">
         <Intro></Intro>
-        <p>next</p>
+        
       </div>
       <Footer className=""></Footer>
     </div>     
