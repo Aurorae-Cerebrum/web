@@ -7,7 +7,7 @@ module.exports = {
       fontFamily: {
         'anaheim': ['Anaheim'],
         'alliance': ['alliance-no1'],
-        
+        'prata': ['Prata'],
         'small' : ['Anaheim', '#627597']
       }
       

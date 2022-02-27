@@ -39,14 +39,23 @@ de la santé au Québec.
                 </p>
             </div>
             */}
-            <div className="bg-black">
-                <Background className="object-fill w-full h-96"></Background>
+            {/*
+            <div className="pb-20">
+                <Background className="object-fill w-full h-96 saturate-50"></Background>
                 
             </div>
+            */}
+
+            <section className="w-full h-screen top-0 pb-20">
+                <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="object-cover w-full h-full"/>
+            </section>
+            
+            
+            
             <Scramble
                 noBreakSpace
-                speed="slow"
-                mouseEnterTrigger="start"
+                speed="medium"
+                mouseEnterTrigger="restart"
                 preScramble
                 autoStart
                 text="apportez de la valeur à votre"
@@ -56,11 +65,11 @@ de la santé au Québec.
                     type: 'forward',
                 },
                 ]}
-            className="pt-20 w-full text-xl sm:text-2xl text-center break-words"/>
+            className="w-full text-xl sm:text-2xl text-center break-words"/>
             <Scramble
                 noBreakSpace
-                speed="slow"
-                //mouseEnterTrigger="start"
+                speed="medium"
+                mouseEnterTrigger="restart"
                 preScramble
                 autoStart
                 text="recherche juridique avec notre plateforme "
@@ -73,8 +82,8 @@ de la santé au Québec.
             className="w-full text-xl sm:text-2xl text-center break-words"/>
             <Scramble
                 noBreakSpace
-                speed="slow"
-                //mouseEnterTrigger="start"
+                speed="medium"
+                mouseEnterTrigger="restart"
                 preScramble
                 autoStart
                 text="spécialisée en droit de la santé."
@@ -90,7 +99,7 @@ de la santé au Québec.
             <div class="max-w-3xl p-8 pt-20 text-lg sm:text-xl mx-auto space-y-10">
 
 
-                <section className=" md:flex md:justify-between items-start">
+                <section className="md:flex md:justify-between items-start">
                     <div className="md:w-1/2 sticky top-0 md:top-20 py-4 bg-black">
                         <h2 className="font-extrabold text-2xl">
                             1.1.0 ~ recherche sémantique
@@ -158,43 +167,47 @@ de la santé au Québec.
             <p>.</p>
             <p>.</p>
             <Graph></Graph>
-        </div>     
-        
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p className="pb-20">.</p>
+
+
+            {/*
+            <div className="max-w-3xl sm:w-2/3 flex bg-black flex-col-reverse sm:flex-row items-left sm:items-center justify-between">
+                <label>    
+                    <input className="placeholder-white placeholder-opacity-50 w-56 focus:outline-none border-b border-white bg-black" type="text" placeholder="* nom prénom" autoComplete="off"/>
+                </label>
+                <label>    
+                    <input className="placeholder-white placeholder-opacity-50 w-56 focus:outline-none border-b border-white bg-black" type="email" placeholder="* courriel" autoComplete="off"/>
+                </label>
+            </div>
+            */}
+
+
+
+
+
+            <form className="w-2/3 flex pb-10 pt-20 justify-between">
+                <label>    
+                    <input className="placeholder-white placeholder-opacity-50 w-56 focus:outline-none border-b border-white bg-black" type="text" placeholder="* nom prénom" autoComplete="off"/>
+                </label>
+                <label>    
+                    <input className="placeholder-white placeholder-opacity-50 w-56 focus:outline-none border-b border-white bg-black" type="email" placeholder="* courriel" autoComplete="off"/>
+                </label>
+            </form>
+            <form className="w-2/3 flex pb-20 pt-10 justify-between">
+                <label>    
+                    <input className="placeholder-white placeholder-opacity-50 w-56 focus:outline-none border-b border-white bg-black" type="text" placeholder="* message" autoComplete="off"/>
+                </label>
+                <label>    
+                    <button className="">envoyer →</button>
+                </label>
+            </form>
+        </div>                      
     );
 }
     
 
 export default Intro;
 
-
-/*
-
-
-
-
-
-
-
-<ul className="pl-8 flex justify-between">
-                <li>
-                    <LineOne></LineOne>
-                </li>
-                <li>
-                    <div className="pl-8 pt-20">
-                        <p className="w-2/3 underline text-lg sm:text-xl text-left break-words">recherche sémantique</p>
-                        <p className="pt-4 w-2/3 text-base sm:text-lg text-left break-words text-left">nous développons un moteur de recherche complet, destiné au droit de la santé qui utilise la puissance de l’intelligence artificielle afin d’amener la recherche juridique.</p>
-                    </div>
-                    <div className="pl-8 pt-20">
-                        <p className="w-2/3 underline text-lg sm:text-xl text-left break-words">visualisation par graphe de connaissance</p>
-                        <p className="pt-4 w-2/3 text-base sm:text-lg text-left break-words text-left">nous offrons une visualisation de connaissances juridiques augmentée grâce aux graphes de connaissance virtuelle.</p>
-                    </div>
-                </li>
-                
-            </ul>
-
-
-
-
-
-
-*/

@@ -14,7 +14,7 @@ function Footer(props) {
                     <li><p className=" text-2xl">auroraeCerebrum</p></li>
                 </ul>
             </div>            
-            <div className="pl-8 pr-8 p-4 pt-0 flex grid sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-black">
+            <div className="pl-8 pr-8 p-4 pt-0 flex grid sm:grid-cols-2 lg:grid-cols-4 gap-8 bg-black">
                 <div>
                     <p className="text-lg sm:text-xl pb-2">à propos</p>
                     <div className="">
